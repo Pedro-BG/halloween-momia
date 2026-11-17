@@ -1,0 +1,7 @@
+{
+  "name": "halloween-momia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

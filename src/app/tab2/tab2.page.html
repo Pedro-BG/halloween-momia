@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Secretos y leyendas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="historia">
+
+    <h1>EL ANTIGUO EGIPTO</h1>
+
+    <p>
+      En el antiguo Egipto se practicaba la momificación
+      para conservar los cuerpos de los difuntos.
+      Con el paso del tiempo, las momias se convirtieron
+      en protagonistas de numerosas leyendas de terror.
+    </p>
+
+    <h2>Sus poderes</h2>
+
+    <lib-monster-card
+      image="assets/img/momia-historia.jpg"
+      title="Poderes"
+      text="Fuerza sobrenatural, resistencia al paso del tiempo y capacidad para sembrar el terror."
+      buttonText="Ver poderes"
+      (action)="mostrarDetalle()">
+    </lib-monster-card>
+
+    <h2>Sus debilidades</h2>
+
+    <lib-monster-card
+      image="assets/img/tumba.avif"
+      title="Debilidades"
+      text="En las leyendas, su cuerpo puede ser vulnerable al fuego y sus movimientos pueden verse limitados por sus antiguos vendajes."
+      buttonText="Ver debilidades"
+      (action)="mostrarDetalle()">
+    </lib-monster-card>
+
+    <h2>Curiosidades</h2>
+
+    <p>
+      Los antiguos egipcios utilizaban vendas de lino
+      durante el proceso de momificación.
+      También colocaban amuletos junto a los difuntos.
+    </p>
+
+  </div>
+
+</ion-content>
